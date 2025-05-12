@@ -9,9 +9,9 @@ const Input = styled(InputBase)(({ theme }) => ({
   '& .MuiInputBase-input': {
     borderRadius: 4,
     position: 'relative',
-    backgroundColor: theme.palette.mode === 'light' ? 'rgba(255, 255, 255, 0.5)' : '#1A2027',
+    backgroundColor: 'rgba(255, 255, 255, 0.5)',
     border: '1px solid',
-    borderColor: theme.palette.mode === 'light' ? 'rgba(255, 255, 255, 0.5)' : '#2D3843',
+    borderColor: 'rgba(255, 255, 255, 0.5)',
     fontSize: 16,
     width: 'auto',
     padding: '10px 12px',

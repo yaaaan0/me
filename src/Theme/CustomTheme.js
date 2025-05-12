@@ -1,4 +1,6 @@
 import { createTheme } from '@mui/material/styles';
+import bg from '../assets/images/bg.png';
+import bg_dark1 from '../assets/images/bg_dark.jpg';
 
 export const lightTheme = createTheme({
   palette: {
@@ -22,6 +24,7 @@ export const lightTheme = createTheme({
     success: {
       main: '#36d7be',
     },
+    backgroundImage: bg
   },
 });
 
@@ -47,5 +50,6 @@ export const darkTheme = createTheme({
     success: {
       main: '#36d7be',
     },
+    backgroundImage: bg_dark1
   },
 });
